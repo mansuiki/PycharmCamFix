@@ -6,12 +6,13 @@
 //
 
 import Cocoa
+import AVFoundation
 
 class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        AVCaptureDevice.requestAccess(for: .video) { _ in }
         // Do any additional setup after loading the view.
     }
 
