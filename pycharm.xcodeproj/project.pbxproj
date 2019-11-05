@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A237C80F237126F900ACA8AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A237C80E237126F900ACA8AA /* AppDelegate.swift */; };
+		A237C811237126F900ACA8AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A237C810237126F900ACA8AA /* ViewController.swift */; };
+		A237C813237126FA00ACA8AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A237C812237126FA00ACA8AA /* Assets.xcassets */; };
+		A237C816237126FA00ACA8AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A237C814237126FA00ACA8AA /* Main.storyboard */; };
+		A237C822237126FB00ACA8AA /* pycharmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A237C821237126FB00ACA8AA /* pycharmTests.swift */; };
+		A237C82D237126FB00ACA8AA /* pycharmUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A237C82C237126FB00ACA8AA /* pycharmUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A237C81E237126FB00ACA8AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A237C803237126F900ACA8AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A237C80A237126F900ACA8AA;
+			remoteInfo = pycharm;
+		};
+		A237C829237126FB00ACA8AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A237C803237126F900ACA8AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A237C80A237126F900ACA8AA;
+			remoteInfo = pycharm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A237C80B237126F900ACA8AA /* pycharm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pycharm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A237C80E237126F900ACA8AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A237C810237126F900ACA8AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A237C812237126FA00ACA8AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A237C815237126FA00ACA8AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A237C817237126FA00ACA8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A237C818237126FA00ACA8AA /* pycharm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = pycharm.entitlements; sourceTree = "<group>"; };
+		A237C81D237126FB00ACA8AA /* pycharmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pycharmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A237C821237126FB00ACA8AA /* pycharmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pycharmTests.swift; sourceTree = "<group>"; };
+		A237C823237126FB00ACA8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A237C828237126FB00ACA8AA /* pycharmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pycharmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A237C82C237126FB00ACA8AA /* pycharmUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pycharmUITests.swift; sourceTree = "<group>"; };
+		A237C82E237126FB00ACA8AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A237C808237126F900ACA8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A237C81A237126FB00ACA8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A237C825237126FB00ACA8AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A237C802237126F900ACA8AA = {
+			isa = PBXGroup;
+			children = (
+				A237C80D237126F900ACA8AA /* pycharm */,
+				A237C820237126FB00ACA8AA /* pycharmTests */,
+				A237C82B237126FB00ACA8AA /* pycharmUITests */,
+				A237C80C237126F900ACA8AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A237C80C237126F900ACA8AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A237C80B237126F900ACA8AA /* pycharm.app */,
+				A237C81D237126FB00ACA8AA /* pycharmTests.xctest */,
+				A237C828237126FB00ACA8AA /* pycharmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A237C80D237126F900ACA8AA /* pycharm */ = {
+			isa = PBXGroup;
+			children = (
+				A237C80E237126F900ACA8AA /* AppDelegate.swift */,
+				A237C810237126F900ACA8AA /* ViewController.swift */,
+				A237C812237126FA00ACA8AA /* Assets.xcassets */,
+				A237C814237126FA00ACA8AA /* Main.storyboard */,
+				A237C817237126FA00ACA8AA /* Info.plist */,
+				A237C818237126FA00ACA8AA /* pycharm.entitlements */,
+			);
+			path = pycharm;
+			sourceTree = "<group>";
+		};
+		A237C820237126FB00ACA8AA /* pycharmTests */ = {
+			isa = PBXGroup;
+			children = (
+				A237C821237126FB00ACA8AA /* pycharmTests.swift */,
+				A237C823237126FB00ACA8AA /* Info.plist */,
+			);
+			path = pycharmTests;
+			sourceTree = "<group>";
+		};
+		A237C82B237126FB00ACA8AA /* pycharmUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A237C82C237126FB00ACA8AA /* pycharmUITests.swift */,
+				A237C82E237126FB00ACA8AA /* Info.plist */,
+			);
+			path = pycharmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A237C80A237126F900ACA8AA /* pycharm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A237C831237126FB00ACA8AA /* Build configuration list for PBXNativeTarget "pycharm" */;
+			buildPhases = (
+				A237C807237126F900ACA8AA /* Sources */,
+				A237C808237126F900ACA8AA /* Frameworks */,
+				A237C809237126F900ACA8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pycharm;
+			productName = pycharm;
+			productReference = A237C80B237126F900ACA8AA /* pycharm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A237C81C237126FB00ACA8AA /* pycharmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A237C834237126FB00ACA8AA /* Build configuration list for PBXNativeTarget "pycharmTests" */;
+			buildPhases = (
+				A237C819237126FB00ACA8AA /* Sources */,
+				A237C81A237126FB00ACA8AA /* Frameworks */,
+				A237C81B237126FB00ACA8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A237C81F237126FB00ACA8AA /* PBXTargetDependency */,
+			);
+			name = pycharmTests;
+			productName = pycharmTests;
+			productReference = A237C81D237126FB00ACA8AA /* pycharmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A237C827237126FB00ACA8AA /* pycharmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A237C837237126FB00ACA8AA /* Build configuration list for PBXNativeTarget "pycharmUITests" */;
+			buildPhases = (
+				A237C824237126FB00ACA8AA /* Sources */,
+				A237C825237126FB00ACA8AA /* Frameworks */,
+				A237C826237126FB00ACA8AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A237C82A237126FB00ACA8AA /* PBXTargetDependency */,
+			);
+			name = pycharmUITests;
+			productName = pycharmUITests;
+			productReference = A237C828237126FB00ACA8AA /* pycharmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A237C803237126F900ACA8AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				TargetAttributes = {
+					A237C80A237126F900ACA8AA = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					A237C81C237126FB00ACA8AA = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = A237C80A237126F900ACA8AA;
+					};
+					A237C827237126FB00ACA8AA = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = A237C80A237126F900ACA8AA;
+					};
+				};
+			};
+			buildConfigurationList = A237C806237126F900ACA8AA /* Build configuration list for PBXProject "pycharm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A237C802237126F900ACA8AA;
+			productRefGroup = A237C80C237126F900ACA8AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A237C80A237126F900ACA8AA /* pycharm */,
+				A237C81C237126FB00ACA8AA /* pycharmTests */,
+				A237C827237126FB00ACA8AA /* pycharmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A237C809237126F900ACA8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A237C813237126FA00ACA8AA /* Assets.xcassets in Resources */,
+				A237C816237126FA00ACA8AA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A237C81B237126FB00ACA8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A237C826237126FB00ACA8AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A237C807237126F900ACA8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A237C811237126F900ACA8AA /* ViewController.swift in Sources */,
+				A237C80F237126F900ACA8AA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A237C819237126FB00ACA8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A237C822237126FB00ACA8AA /* pycharmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A237C824237126FB00ACA8AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A237C82D237126FB00ACA8AA /* pycharmUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A237C81F237126FB00ACA8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A237C80A237126F900ACA8AA /* pycharm */;
+			targetProxy = A237C81E237126FB00ACA8AA /* PBXContainerItemProxy */;
+		};
+		A237C82A237126FB00ACA8AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A237C80A237126F900ACA8AA /* pycharm */;
+			targetProxy = A237C829237126FB00ACA8AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A237C814237126FA00ACA8AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A237C815237126FA00ACA8AA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A237C82F237126FB00ACA8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A237C830237126FB00ACA8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A237C832237126FB00ACA8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = pycharm/pycharm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pycharm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.pycharm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A237C833237126FB00ACA8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = pycharm/pycharm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pycharm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.pycharm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A237C835237126FB00ACA8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pycharmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.pycharmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pycharm.app/Contents/MacOS/pycharm";
+			};
+			name = Debug;
+		};
+		A237C836237126FB00ACA8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pycharmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.pycharmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pycharm.app/Contents/MacOS/pycharm";
+			};
+			name = Release;
+		};
+		A237C838237126FB00ACA8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pycharmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.pycharmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = pycharm;
+			};
+			name = Debug;
+		};
+		A237C839237126FB00ACA8AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = pycharmUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetbrains.pycharmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = pycharm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A237C806237126F900ACA8AA /* Build configuration list for PBXProject "pycharm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A237C82F237126FB00ACA8AA /* Debug */,
+				A237C830237126FB00ACA8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A237C831237126FB00ACA8AA /* Build configuration list for PBXNativeTarget "pycharm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A237C832237126FB00ACA8AA /* Debug */,
+				A237C833237126FB00ACA8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A237C834237126FB00ACA8AA /* Build configuration list for PBXNativeTarget "pycharmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A237C835237126FB00ACA8AA /* Debug */,
+				A237C836237126FB00ACA8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A237C837237126FB00ACA8AA /* Build configuration list for PBXNativeTarget "pycharmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A237C838237126FB00ACA8AA /* Debug */,
+				A237C839237126FB00ACA8AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A237C803237126F900ACA8AA /* Project object */;
+}
