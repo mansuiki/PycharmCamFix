@@ -8,6 +8,9 @@ git clone https://github.com/mansuiki/PycharmCamFix
 ```bash
 osascript -e 'id of app "Pycharm"'
 # Example Output : com.jetbrains.pycharm
+
+# Other APP : osascript -e 'id of app "APP_NAME"'
+# Like : osascript -e 'id of app "Visual Studio Code"'
 ```
 
 ## Step 3 : Set Xcode APP Bundle ID
